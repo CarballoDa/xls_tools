@@ -25,6 +25,7 @@ cd excel-tools
 python -m venv venv
 source venv/bin/activate  # o .\venv\Scripts\activate en Windows
 pip install -r requirements.txt
+```
 
 ## Project Structure
 
@@ -39,11 +40,13 @@ excel_tools/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## Running Tests
 
 ```bash
 pytest tests/
+```
 
 ## Project Status
 
